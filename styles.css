@@ -94,6 +94,7 @@ main {
     transform: translate(-52px, 4px);
     border-radius: 1.8rem;
     box-shadow: -1px 10px 22px 0px hsl(0deg 4.85% 75.97%);
+    position: relative;
 }
 
 .text-container button:hover {
@@ -115,6 +116,15 @@ main {
 
 .nav-container, .text-container {
     padding: 3rem;
+}
+
+.response {
+    position: absolute;
+    bottom: -35px;
+    left: 200px;
+    color: var(--soft-red);
+    margin: auto;
+    font-size: 0.85rem;
 }
 
 @media (max-width: 1400px){
