@@ -46,12 +46,12 @@ main {
 .text-container h1 {
     font-size: 4.5rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.5rem;
 }
 
 .text-container h1 span {
-    font-weight: 400
+    font-weight: 300;
 
 }
 
@@ -72,7 +72,7 @@ main {
     border-radius: 2.5rem;
     border-color: var(--desaturated-red);
     border-width: 0.1rem;
-    outline: none;
+    outline: var(--soft-red);
     margin-left: 0.5rem;
     margin-top: 2rem;
 }
@@ -97,6 +97,10 @@ main {
     cursor: pointer;
 }
 
+.text-container input:focus {
+    outline: solid 0.15rem var(--soft-red);
+}
+
 .image-container img {
     width: 100%;
 }
@@ -115,8 +119,7 @@ main {
 
 .response {
     position: absolute;
-    bottom: 205px;
-    left: 60px;
+    top: 370px;
     color: var(--soft-red);
     margin: auto;
     font-size: 0.85rem;
@@ -161,8 +164,7 @@ main {
     }
 
     .response {
-        position: absolute;
-        bottom: 125px;
+        top: 450px;
         left: 75px;
 
     }
@@ -189,7 +191,6 @@ main {
     .text-container h1 {
         font-size: 3rem;
         text-transform: uppercase;
-        font-weight: 500;
         letter-spacing: 0.5rem;
     }
 

@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', (e) => {
 
         if(email.value.length){
              res = validateEmail(email.value) 
-               ? 'Thank you' 
+               ? 'Thank you!' 
                : 'Please provide valid email !'
              
         } else {
-             res = 'email cannot be empty !'
+             res = 'Email cannot be empty !'
         }
 
         response.textContent = res;
