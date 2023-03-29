@@ -39,6 +39,7 @@ main {
 
 .text-container {
     text-align: center;
+    position: relative;
 }
 
 
@@ -88,7 +89,7 @@ main {
     transform: translate(-52px, 4px);
     border-radius: 1.8rem;
     box-shadow: -1px 10px 22px 0px hsl(0deg 4.85% 75.97%);
-    position: relative;
+
 }
 
 .text-container button:hover {
@@ -114,8 +115,8 @@ main {
 
 .response {
     position: absolute;
-    bottom: 0;
-    left: 200px;
+    bottom: 205px;
+    left: 60px;
     color: var(--soft-red);
     margin: auto;
     font-size: 0.85rem;
@@ -145,6 +146,8 @@ main {
         max-width: 30rem;
         text-align: left;
         margin: auto;
+        position: relative;
+
     }
 
     .text-container h1 {
@@ -154,6 +157,13 @@ main {
     .nav-container {
         margin: auto;
         width: 30rem;
+
+    }
+
+    .response {
+        position: absolute;
+        bottom: 125px;
+        left: 75px;
 
     }
 
